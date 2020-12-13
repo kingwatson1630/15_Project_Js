@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,39 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>review project</h1>
+    <main>
+      <section class="container">
+        <!--title-->
+        <div class="title">
+          <h2>Our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!--reviews-->
+        <article class="review">
+          <div class="img-container">
+            <img src="./person-1.jpeg" id="person-img" alt="picture">
+          </div>
+          <h4 id="author">sara jones</h4>
+          <p id="job">ux design</p>
+          <p id="info">Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Accusamus
+            amet autem beatae cupiditate esse ex laboriosam
+            nam ratione reiciendis sunt?
+          </p>
+          <!--prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-circle-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-circle-right"></i>
+            </button>
+          </div>
+          <!--random button-->
+          <button class="random-btn">surprise me</button>
+        </article>
+      </section>
+    </main>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
